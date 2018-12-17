@@ -1,0 +1,103 @@
+body {
+	overflow: visible;
+	user-select: none;
+}
+
+@keyframes fadein {
+	0% {opacity:0;}
+	100% {opacity: 1;}
+}
+
+.fade {
+	margin-top: 5%;
+	animation: fadein 1.5s;
+	text-align: center;
+}
+
+form {
+	margin-top: 1%;
+}
+
+textarea {
+	resize: none;
+}
+
+.contact {
+	outline: none;
+	width: 100%;
+	max-width: 180px;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+
+input[type="submit"] {
+	padding: 5px;
+	border: grey solid 1px;
+	border-radius: 5px;
+	width: 5vw;
+	height: 4vh;
+	font-size: 2vh;
+	outline: none;
+	overflow: hidden;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	background: rgb(211,211,211);
+}
+
+h2 {
+	font-size: 1.2vw;
+}
+
+form {
+	font-size: 1vw;
+}
+
+.message {
+	outline: none;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 220px;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+.message:focus {
+	border: 2px solid black;
+}
+
+#name:focus {
+	border: 2px solid black;
+}
+
+#email:focus {
+	border: 2px solid black;
+}
+
+.animate {
+	position: fixed;
+	left: 15%;
+	bottom: 50%;
+	max-width: 200px;
+	max-height: 150px;
+	width: 100%;
+	height: 100%;
+	background: url(../images/sd.png) no-repeat;
+	background-size: contain;
+	animation: up 4s infinite;
+}
+
+@keyframes up {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}

@@ -1,0 +1,77 @@
+body {
+	overflow: visible;
+	margin-bottom: 10%;
+}
+
+@keyframes fadein {
+	0% {opacity:0;}
+	100% {opacity: 1;}
+}
+
+.fade {
+	margin-top: 2%;
+	animation: fadein 1.5s;
+}
+
+h1 {
+	margin-top: 2%;
+	text-align: center;
+	margin-bottom: 2%;
+	font-size: 2vw;
+}
+
+#container {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+}
+
+#quiz {
+	margin-bottom: 2%;
+	font-size: 1.2vw;
+}
+
+.radio {
+	margin-top: 1%;
+}
+
+input {
+	margin-top: 1%;
+}
+
+.answer {
+	display: none;
+	color: green;
+}
+
+.wrong {
+	display: none;
+	color: red;
+}
+
+#results {
+	font-size: 1.2vw;
+	margin-bottom: 1%;
+	text-align: center;
+}
+
+#redo {
+	display: none;
+}
+
+button {
+	padding: 5px;
+	border: grey solid 1px;
+	border-radius: 5px;
+	width: 5vw;
+	height: 4vh;
+	font-size: 2vh;
+	outline: none;
+	overflow: hidden;
+	margin-left: 1%;
+}
+
+button:hover {
+	cursor: pointer;
+	background: rgb(211,211,211);
+}
