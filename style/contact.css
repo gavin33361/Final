@@ -78,7 +78,7 @@ form {
 }
 
 .animate {
-	position: fixed;
+	position: absolute;
 	left: 15%;
 	bottom: 50%;
 	max-width: 200px;
@@ -101,3 +101,4 @@ form {
 		transform: translateY(0);
 	}
 }
+
