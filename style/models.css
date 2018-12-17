@@ -62,6 +62,7 @@ button:hover {
 	list-style: none;
 	margin-bottom: 1%;
 	display: inline-block;
+	margin-left: 1%;
 }
 
 .showcase ul li img:not(.lightboximage) {
